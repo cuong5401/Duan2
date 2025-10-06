@@ -26,7 +26,6 @@ body {
 }
 
 /* các phương thức chung */
-
 a {
       text-decoration: none;
 
@@ -107,7 +106,7 @@ ul {
 #courses,
 #pricing,
 #reviews {
-      scroll-margin-top: 100px;
+      scroll-margin-top: 70px;
 }
 
 /**************************************
