@@ -20,6 +20,11 @@ html {
       font-size: 62.5%;
 }
 
+html,
+body {
+      scroll-behavior: smooth;
+}
+
 /* các phương thức chung */
 
 a {
@@ -96,6 +101,13 @@ ul {
 
 .slider-mark.active {
       background: #FFB900;
+}
+
+#home,
+#courses,
+#pricing,
+#reviews {
+      scroll-margin-top: 100px;
 }
 
 /**************************************
@@ -351,6 +363,7 @@ main {
       background: #FFF;
       box-shadow: 0 18px 36px 0 rgba(0, 0, 0, 0.05);
       transition: transform 0.3s ease;
+      overflow: hidden;
 }
 
 .reviews-img,
